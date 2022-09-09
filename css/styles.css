@@ -498,8 +498,11 @@ body {
 }
 .page-footer .coteiner {
   display: flex;
-  gap: 70px;
+  /* gap: 70px; */
   align-items: baseline;
+}
+.footer-first-column {
+  margin-right: 70px;
 }
 .page-footer .link {
   color: inherit;
@@ -601,7 +604,7 @@ body {
   left: 50%;
   width: 528px;
   height: 581px;
-
+  padding: 40px;
   background-color: var(--color-bg-primary);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -614,7 +617,7 @@ body {
 .contact-form {
   width: 100%;
   height: 100%;
-  padding: 40px;
+
   outline: none;
   text-align: center;
 }
